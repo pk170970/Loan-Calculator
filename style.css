@@ -35,6 +35,8 @@ h3{
     font-size: 2rem;
     text-decoration: underline;
     text-underline-offset: 5px;
+    text-align:center;
+    margin: 0 auto;
 }
 
 .box{
