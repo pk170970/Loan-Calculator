@@ -35,7 +35,11 @@ h3{
     font-size: 2rem;
     text-decoration: underline;
     text-underline-offset: 5px;
+<<<<<<< HEAD
     text-align: center;
+=======
+    text-align:center;
+>>>>>>> f6aa523f3b9b6542ef2c7d83cc429b2074a45755
     margin: 0 auto;
 }
 
