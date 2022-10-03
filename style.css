@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 3em auto;
+    background-color: rgb(121, 120, 120);
+    color: white;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.loan-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+p{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 0.1em 0.2em;
+    border: none;
+    height: 20px;
+}
+
+div>label+input{
+    margin-left: 2em;
+    font-size: 1rem;
+}
+
+.box-outer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+#amount-range{
+    width: 100%;
+}
+
+label{
+font-size: 1.5rem;
+}
+
+.calculate{
+    padding: 0.5em 1em;
+    border: none;
+    border-right: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+
+
+input[type=range]{
+    background-color: red;
+    width: 100%;
+}
+
+.result{
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    /* width: 50%; */
+    height: 100%;
+    font-size: 1.2rem;
+    padding: 0.5em;
+}
