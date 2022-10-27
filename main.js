@@ -41,7 +41,7 @@ button.addEventListener("click",()=>{
     if(rangeAmount.value || rangeMonths.value || rangeMonths.value <=0){ 
         swal({
             title: "Oops!",
-            text: "Please Enter the Correct values, it cannot be empty or 0",
+            text: "Please Enter the Correct values, it cannot be empty,0 or exceed the threshold",
             icon: "warning",
           });
     }else{
