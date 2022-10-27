@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Loan Calculator</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
                     <input type="number" id="rate">
                     <p>%</p>
                 </div>
-                <input type="range" name="rate-range" id="rate-range" min="0" max="20">
+                <input type="range" name="rate-range" id="rate-range" min="0" max="20" value="0" >
             </div>
             <div class="loan-tenure box-outer">
                 <div class="month-box box">
@@ -33,7 +34,7 @@
                     <input type="number" id="months">
                     <p>Yr</p>
                 </div>
-                <input type="range" name="month-range" id="month-range" min="0" max="30">
+                <input type="range" name="month-range" id="month-range" min="0" max="30" value="0" >
             </div>
 
             <button class="calculate">Calculate</button>
